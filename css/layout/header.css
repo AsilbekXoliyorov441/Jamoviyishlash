@@ -1,0 +1,24 @@
+header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  color: white;
+}
